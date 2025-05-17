@@ -6,4 +6,5 @@ Fitur tambahan yang ditambahkan dalam program ini adalah filterByPrice(double mi
 
 --- [Khusus untuk folder TugasPraktikum7] ---
 
-Merupakan sebuah program sederhana yang menampilkan sebuah daftar film ala ala pemesanan tiket bioskop yang sangat sederhana dengan menggunakan Array, dimana user diminta menginputkan sebuah index untuk memilih film film yang tersedia. apabila user menginputkan nomor yang di luar index dari array tersebut maka akan terjadi error dan akan ditangani dengan menggunakan Exception handler ArrayIndexOutofBoundsException yang akan menampilkan pesan letak kesalahan user dan program akan berhenti tanpa adanya crash. program dapat dijalankan kembali, dan berharap agar user memasukan nomor sesuai dengan rentang index array yang tersedia.
+Program ini adalah aplikasi sederhana yang menampilkan daftar film ala ala sistem pemesanan tiket bioskop, dengan film disimpan dalam array dan pengguna diminta memilih film dengan memasukkan angka indeks. sebelum menampilkan film, program memeriksa apakah input berada dalam rentang valid, dan jika tidak, melempar exception secara manual menggunakan throw new IllegalArgumentException, yang kemudian ditangani dalam blok try catch agar program tidak crash dan pengguna menerima pesan kesalahan yang jelas, sehingga program dapat dijalankan kembali lebih aman dan memberikan pengalaman pengguna yang lebih baik.
+
