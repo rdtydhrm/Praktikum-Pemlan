@@ -8,3 +8,6 @@ Fitur tambahan yang ditambahkan dalam program ini adalah filterByPrice(double mi
 
 Program ini adalah aplikasi sederhana yang menampilkan daftar film ala ala sistem pemesanan tiket bioskop, dengan film disimpan dalam array dan pengguna diminta memilih film dengan memasukkan angka indeks. sebelum menampilkan film, program memeriksa apakah input berada dalam rentang valid, dan jika tidak, melempar exception secara manual menggunakan throw new IllegalArgumentException, yang kemudian ditangani dalam blok try catch agar program tidak crash dan pengguna menerima pesan kesalahan yang jelas, sehingga program dapat dijalankan kembali lebih aman dan memberikan pengalaman pengguna yang lebih baik.
 
+
+***REPO KHUSUS PENGUMPULAN TUGAS PRAKTIKUM PEMROGRAMAN LANJUT
+
